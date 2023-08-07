@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="festa.css">
+    <title>Festa Funilha</title>
+</head>
+<body>
+    <header>
+        <h1>Festa Funilha</h1>
+        <hr>
+
+            <h2>Venha na festa Funilha</h2>
+        
+
+        <div class="imagens">
+            <img src="img/festajunina.webp" alt="festajunina">
+            <br>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/qmYT4QxR6Zk" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+            web-share" allowfullscreen></iframe>
+        </div>
+    </header>
+
+    <div class="form">
+        <h2>Confirme sua presença</h2>
+        <fieldset>
+           
+            <form action="https://api.sheetmonkey.io/form/koDgeTDj4Wanr28Jfnp1y8" method="post">
+                <label for="nomesobrenome">Nome:</label>
+                <input type="text" name="nomesobrenome" id="nomesobrenome" required>
+                <br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+
+                    <h1>Sexo:</h1>
+
+                 <div class="sexo">
+                    <label for="select"><input type="radio" class="sexo2" name="sexo" value="masculino" id="select">Masculino</label>
+                    </div>
+
+                <div class="sexo">
+                    <label for="select"><input type="radio" class="sexo2" name="sexo" value="feminino" id="select">Femenino</label>
+                </div>
+
+                <div class="sexo">
+                    <label for="select"><input type="radio" class="sexo2" name="sexo" value="outros" id="select">Outros</label>
+                </div>
+
+                <input type="submit" id="submit">
+
+            </fieldset>
+        </form>
+    </div>
+
+    
+</body>
+</html>
